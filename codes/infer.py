@@ -84,15 +84,15 @@ def fit_Realdata(tpath, outpath, deg):
 if __name__ == "__main__":
     for dataset in ["HM-TIR", "M3FD", "AWMM", "TIR100", "EN"]:
         if dataset == "HM-TIR" or dataset == "M3FD":
-            tpath = f"../Dataset/{dataset}/test"
+            tpath = f"../datasets/{dataset}/test"
             for deg in ["contrast", "blur", "noise", "CB", "CN", "BN", "CBN"]:
                 print(f"{dataset}-{deg}")
-                outpath = f"../Dataset/{dataset}/results/{deg}"
+                outpath = f"../datasets/{dataset}/results/{deg}"
                 os.makedirs(outpath, exist_ok=True)
                 fit_Inctasks(tpath, outpath, deg)
         elif dataset == "AWMM" or dataset == "TIR100" or dataset == "EN":
-            tpath = f"../Dataset/{dataset}"
-            outpath = f"../Dataset/{dataset}/results"
+            tpath = f"../datasets/{dataset}"
+            outpath = f"../datasets/{dataset}/results"
             os.makedirs(outpath, exist_ok=True)
             if dataset == "AWMM": deg ="CBN"
             elif dataset == "TIR100": deg ="BN"
