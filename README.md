@@ -1,4 +1,4 @@
-# Expandable, Compressible, Mineable: Open-World Thermal Image Restoration [ICML 2026]
+# Expandable, Compressible, Mineable: Open-World Thermal Image Restoration (ECMRNet) [ICML 2026]
 ### Pu Li, Huafeng Li*, Yafei Zhang, Wen Wang, Neng Dong, Jie Wen
 ---
 
