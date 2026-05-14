@@ -75,7 +75,7 @@ def main(args, deg):
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("--root", type=str, default="../../Dataset/HM-TIR/train")
+    ap.add_argument("--root", type=str, default="../../datasets/HM-TIR/train")
     ap.add_argument("--patch_size", type=int, default=256)
     ap.add_argument("--stride", type=int, default=128)
     ap.add_argument("--cover_edges", type=int, default=0,
