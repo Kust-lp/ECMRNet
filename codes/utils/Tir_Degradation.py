@@ -257,7 +257,7 @@ def M3FD(root_path, degrad):
 if __name__ == "__main__":
 
     for data in ["HM-TIR", "M3FD"]:
-        root_path = f"../../Dataset/{data}"
+        root_path = f"../../datasets/{data}"
 
         for deg in ["contrast", "blur", "noise", "CB", "CN", "BN", "CBN"]:
             if data == "HM-TIR": HMTIR(root_path, deg)
