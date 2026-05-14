@@ -95,7 +95,7 @@ class DCMDataset(Dataset):
 class PuningDataset(Dataset):
     def __init__(self, root_dir,  degarde="contrast", simple_num=300):
         self.root_dir = Path(root_dir)
-        self.src_dir = self.root_dir/ "test" / degarde
+        self.src_dir = self.root_dir/ "train" / degarde
         all_files = sorted(list(self.src_dir.glob("*.png")))
         self.src_files = random.sample(all_files, simple_num)
 
