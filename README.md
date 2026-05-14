@@ -30,7 +30,7 @@ python ./codes/train/train.py
 ```
 
 ### Evaluation
-The evaluation covers synthetic degradation sequences on HM-TIR and M3FD, as well as three real-world degraded datasets. You can either test using your own trained checkpoints or load our pretrained weights from ```./ckpts/ECMRNet```, and then run:
+The evaluation covers synthetic degradation sequences on HM-TIR and M3FD, as well as three real-world degraded datasets. You can either test using your own trained checkpoints or load our pretrained weights from ```./ckpts/ECMRNet.pth```, and then run:
 ```
 python ./codes/infer.py
 ```
