@@ -1,5 +1,5 @@
 #  Enhancing Infrared Vision: Progressive Prompt Fusion Network and Benchmark [ICML 2026]
-### Pu Li, Huafeng Li, Yafei Zhang, Wen Wang, Neng Dong, Jie Wen
+### Pu Li, Huafeng Li*, Yafei Zhang, Wen Wang, Neng Dong, Jie Wen
 ---
 
 <img src="./assets/model.png" align="middle" width="1000">
