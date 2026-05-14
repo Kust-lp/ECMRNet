@@ -37,7 +37,7 @@ python ./codes/infer.py
 
 ### Any Question
 
-If you have any other questions about the code and dataset, please email to lip@stu.kust.edu.cn or lipu2024626@gmail.com.
+If you have any other questions about the code, please email to lip@stu.kust.edu.cn or lipu2024626@gmail.com.
 
 ## References
 [1] Liu, Jinyuan, et al. "Enhancing infrared vision: progressive prompt fusion network and benchmark." Advances in Neural Information Processing Systems 38 (2026): 96850-96875.
